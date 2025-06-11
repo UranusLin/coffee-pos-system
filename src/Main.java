@@ -35,14 +35,14 @@ public class Main {
             System.out.println(productList);
             if (!productList.isEmpty()) {
                 System.out.println(productList.get(2));
-                Product product1 = productService.get(4);
-                System.out.println(product1);
-                product1.setPrice(200);
-                product1.setName("香草拿鐵");
-                boolean success = productService.update(product1);
+                Product product2 = productService.get(4);
+                System.out.println(product2);
+                product2.setPrice(200);
+                product2.setName("香草拿鐵");
+                boolean success = productService.update(product2);
                 if (success) {
-                    product1 = productService.get(4);
-                    System.out.println(product1);
+                    product2 = productService.get(4);
+                    System.out.println(product2);
                 }
             }
             System.out.println(productService.getProductByName("拿鐵"));
