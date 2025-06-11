@@ -12,10 +12,10 @@ run Main.java
 $ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 ```
 
-* sql: Store all sql file
+* sql: Store all sql change file
 * model: object mapping for db schema
 * dao: handle db connect and process sql
-* service: handle business logic
+* service: handle business logic and flow
 
 test
 
