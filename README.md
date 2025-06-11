@@ -16,6 +16,7 @@ $ docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
 * model: object mapping for db schema test
 * dao: handle db connect and process sql
 * service: handle business logic and flow
+
 aaa
 aaa
 zzzzz
